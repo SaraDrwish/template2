@@ -1,0 +1,309 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a{
+text-decoration: none;
+color: inherit;
+}
+
+ul{
+    list-style: none;
+}
+
+header{
+    background-color: black;
+    width: 100%;
+    height: 99px;
+    position: sticky;
+    top: 0;
+}
+
+.content{
+    width: 85%;
+    margin: auto;
+}
+
+header .content .nav_logo {
+    float: left;
+    /* color: rgb(128, 93, 93); */
+    width: 48%;
+}
+
+header .content .nav_logo h1 {
+    color: rgb(247, 238, 238);
+    text-transform: uppercase;
+    padding: 5% 0%;
+}
+
+header .content .nav_items {
+    float: right;
+    color: rgb(241, 233, 233);
+    width: 48%;
+}
+
+header .content .nav_items li{
+    float: right;
+    /* display: inline-block; */
+    padding: 5% 6%;
+}
+
+header .content .nav_items li a{
+  font-size: 20px;
+  transition:all .5s ease ;
+  -webkit-transition:all .5s ease ;
+  -moz-transition:all .5s ease ;
+  -ms-transition:all .5s ease ;
+  -o-transition:all .5s ease ;
+}
+
+header .content .nav_items li a:hover{
+    color: rgb(151, 146, 146);
+}
+
+.clear{
+    clear: both;
+}
+
+.about{
+    background-image: url(./img/340852-top-galaxy-wallpaper-hd-2880x1800.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    padding: 4% 0;
+}
+
+.about p{
+    font-size: 22px;
+    color: rgb(240, 232, 232);
+    line-height: 2;
+    background-color: rgba(240, 232, 232, 0.548);
+    padding: 2% 0;
+    font-weight: bold;
+}
+
+.btn{
+    padding: 1% 2%;
+    border-style: none;
+    background-color: rgb(218, 155, 155);
+    margin: 2% 0;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(100, 98, 98);
+}
+
+
+/* ----------------------------------------------------------- */
+
+
+
+.blog{
+    width: 100%;
+    height: 1800px;
+    background-color: rgb(34, 33, 33);
+}
+
+/* .blog .content .blog_items_contant{
+    background-color: indigo;
+    width: 100%;
+    height: 700px; 
+    margin: auto;
+} */
+
+.blog .blog_items{ 
+    float: left;
+     width: 29%; 
+     margin:8% 2% 4% 2%;
+     padding-bottom: 2%;
+     background-color: rgb(255, 255, 255);
+     text-align: center;
+     border-bottom-left-radius: 1.5%;
+     border-bottom-right-radius: 1.5%;
+}
+
+/* .blog .blog_items:nth-child(1){
+    margin-left: 0;
+} */
+
+/* .blog .blog_items .img_box {
+width: 100%;
+height: 100%;
+background-color: blanchedalmond;
+} */
+
+.blog .blog_items img{
+    width: 100%;
+    height: 320px;
+}
+
+.blog .blog_items p{
+padding: 3%;
+}
+
+.blog .blog_items .btn{
+    padding: 4% 8%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+
+/* ----------------------------------------------------------- */
+
+
+.writing_and_icons{
+    width: 48%;
+    /* background-color: burlywood; */
+    /* padding: 1% 0; */
+    float: left;
+    margin:1%;
+    padding-left: 8%;
+}
+
+.writing_and_icons i {
+    display: inline-block;
+    padding: 4% 6% 0% 0;
+    font-size: 32px;
+    float: left;
+    color: white;
+}
+
+.writing_and_icons .writing_text{
+    width: 88%;
+    padding:0 0 3% 13%;
+}
+
+.writing_and_icons .writing_text h3{
+  padding: 6% 0;
+  color: white;
+  font-size: 24px;
+}
+
+.writing_and_icons .writing_text p{
+    color: rgb(107, 104, 104);
+    padding-bottom: 8%;
+    line-height: 1.5;
+  }
+
+
+
+/* ----------------------------------------------------------- */
+
+
+.contact{
+background-color: rgb(177, 133, 133);
+width: 100%;
+height: 600px;
+text-align: center;
+padding: 5%;
+}
+
+.content_heading{
+text-transform: uppercase;
+color: white;
+width: 66%;
+margin: auto;
+}
+
+.content_heading h2{
+    font-size: 35px;
+}
+
+.contact .content_heading p{
+padding: 1.5% 0 4% 0;
+font-size: 17px;
+word-spacing: 5px;
+}
+
+.contact input{
+    padding: 0 2%;
+    border-radius: 8px;
+    display:block;
+    width: 100%;
+    margin-bottom: 2%;
+    height: 40px;
+    border: 0;
+  
+}
+
+.contact textarea{
+    padding: 0 2%;
+    border-radius: 8px;
+    width: 100%;
+    border: 0;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.contact .btn {
+    padding: 2% 3%;
+    font-size: 17PX;
+    background-color: transparent;
+    border: 1px solid white ;
+    color: white;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+
+/* --------------------------------- */
+
+footer{
+    width: 100%;
+    height: 133px;
+    background-color: rgb(54, 54, 54);
+    color: rgb(167, 161, 161);
+}
+
+footer .footer_box {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+footer .footer_box  p{
+    padding: 5% 0 0% 0;
+}
+
+footer .footer_box ul{
+    padding: 3% 2%;
+}
+
+footer .footer_box ul li {
+    margin: 0% 1%;
+}
+
+footer .footer_box li {
+    display: inline-block;
+    padding: 1%;
+    text-align: center;
+    border: 1px solid rgb(167, 161, 161);
+    color: rgb(167, 161, 161);
+}
+
+/* footer .footer_box li a {
+    display: inline-block;
+    float: left;
+    margin-right: 2%;
+    padding: 1%;
+    text-align: center;
+    border: 1px solid rgb(167, 161, 161);
+    color: rgb(167, 161, 161);
+ 
+} */
